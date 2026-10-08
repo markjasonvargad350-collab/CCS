@@ -1,0 +1,13 @@
+# Ignore a specific file
+secrets.json
+
+# Ignore all files ending in .log
+*.log
+
+# Ignore an entire folder (like node_modules or build outputs)
+/node_modules/
+/dist/
+
+# Ignore a file, but make an exception for a specific one
+/config/*
+!/config/settings.json
