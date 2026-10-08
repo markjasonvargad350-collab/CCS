@@ -1,4 +1,7 @@
-<script> 
+<script setup>
+import '../styles.css'
+
+const asset = (fileName) => `/assets/${fileName}`
 const programs = [
   {
     code: 'BSIT',
@@ -33,7 +36,6 @@ const programs = [
     highlights: ['Information resources', 'Library systems', 'Digital collections'],
   },
 ]
-import './styles.css'; 
 
 </script>
 

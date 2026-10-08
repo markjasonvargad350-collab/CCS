@@ -1,8 +1,13 @@
 <script setup>
+
+import { RouterLink } from 'vue-router'
+import FacultyAndStaff from './FacultyandStaff.vue'
+import Partnerships from './Partnerships.vue'
+import Programs from './Programs.vue'
 const asset = (fileName) => `/assets/${fileName}`
 
 const navItems = [
-  { label: 'Hero', to: '/#hero' },
+  { label: 'Home', to: '/#hero' },
   { label: 'Programs', to: '/#programs' },
   { label: 'Faculty & Staff', to: '/#faculty' },
   { label: 'Partners', to: '/#partners' },
@@ -13,6 +18,7 @@ const navItems = [
 </script>
 
 <template>
+
   <header class="site-header">
     <RouterLink class="brand" to="/#hero" aria-label="Go to hero section">
       <img :src="asset('ccs-logo.png')" alt="CCS logo" />
@@ -46,6 +52,10 @@ const navItems = [
         <p>Remember. Connect. Engage. Build. Share.</p>
       </div>
     </section>
+
+    <Programs />
+    <FacultyAndStaff />
+    <Partnerships />
   
   </main>
 </template>

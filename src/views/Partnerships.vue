@@ -1,4 +1,7 @@
-<script> 
+<script setup>
+import '../styles.css'
+
+const asset = (fileName) => `/assets/${fileName}`
 const partners = [
   { name: 'Oracle Academy', logo: asset('partner-oracle.png') },
   { name: 'Cisco Networking Academy', logo: asset('partner-cisco.png') },
@@ -10,7 +13,6 @@ const partners = [
   { name: 'LasorTech', logo: asset('partner-lasortech.jpg') },
   { name: 'Startup Project', logo: asset('partner-startup.jpg') },
 ]
-import './styles.css'; 
 
 </script>
 

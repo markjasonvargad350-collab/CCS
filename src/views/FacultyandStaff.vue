@@ -1,4 +1,7 @@
-<script> 
+<script setup>
+import '../styles.css'
+
+const asset = (fileName) => `/assets/${fileName}`
 const departments = [
   {
     name: 'College Administration',
@@ -129,7 +132,6 @@ const departments = [
   },
 ]
 
-import './styles.css'; 
 </script>
 
 <template>
