@@ -33,7 +33,7 @@ const navItems = [
         <h1>College of Computer Studies</h1>
         <p>
           A redesigned one-page CCS mockup built to showcase computing programs,
-          mentors, and partnerships with smooth Vue Router anchor navigation.
+          mentors, and partnerships.
         </p>
         <div class="hero-actions" aria-label="Hero quick links">
           <RouterLink to="/#programs">Explore Programs</RouterLink>
